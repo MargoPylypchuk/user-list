@@ -1,0 +1,10 @@
+.users-list{
+    background-color: rgb(69, 104, 193);
+    width: 750px;
+    height: 40px;
+    margin: 12px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}

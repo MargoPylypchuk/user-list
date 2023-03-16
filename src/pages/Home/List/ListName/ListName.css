@@ -1,0 +1,15 @@
+.f-name {
+  margin-left: 20px;
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 25px;
+  color:azure;
+  opacity: 0.9;
+}
+.users-name {
+  display: flex;
+  align-items: center;
+  height: 100%;
+}
