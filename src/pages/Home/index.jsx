@@ -2,7 +2,7 @@ import React, { useState, useEffect } from "react";
 import axios from "axios";
 import List from "./List";
 import "./Home.css";
-import { Link } from 'react-router-dom';
+
 
 function Home() {
   const [data, setData] = useState([]);
@@ -18,12 +18,15 @@ function Home() {
   useEffect(() => {
     getUsers();
   }, []);
+   
 
+
+  // console.log(data);
   return data.length === 0 ? (
     <div>Loading...</div>
   ) : (
     
-      <div className="home">
+      <div className="home" >
         <div className="text">ListUsers</div>
         {data.map((item) => {
           return <List data={item} />;

@@ -1,12 +1,12 @@
 .f-name {
   margin-left: 20px;
-  font-family: "Lato";
+  font-family: "Poppins";
   font-style: normal;
-  font-weight: 400;
-  font-size: 18px;
-  line-height: 25px;
-  color:azure;
-  opacity: 0.9;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 140%;
+  text-transform: capitalize;
+  color: #ffffff;
 }
 .users-name {
   display: flex;

@@ -5,7 +5,7 @@ function ListPhoto({photo}){
     
     return(
         <div className="users-ph">
-            <img src ={photo} href ='ph' className="us-ph"/>
+            <img src ={photo} alt= 'ada' className="us-ph"/>
         </div>
     )
 }

@@ -1,10 +1,13 @@
 .users-list{
-    background-color: rgb(69, 104, 193);
-    width: 750px;
-    height: 40px;
-    margin: 12px;
-    border-radius: 10px;
+    background: rgb(38,55,180);
+    background: linear-gradient(90deg, rgba(63, 84, 245, 0.832) 0%, rgb(94, 195, 253) 79%, rgb(130, 213, 249) 100%);
+    width: 900px;
+    height: 50px;
+    margin: 15px;
+    border-radius: 20px;
     display: flex;
     align-items: center;
     justify-content: space-between;
+    margin-left: 400px;
+    
 }
